@@ -1,0 +1,36 @@
+{
+	"uni-app": {
+		"scripts": {
+			"weixin:test": {
+				"title": "微信测试环境",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin",
+					"ENV_PATH": "test"
+				},
+				"define": {
+					"WXCS-PLATFORM": true
+				}
+			},
+			"weixin:dev": {
+				"title": "微信开发环境",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin",
+					"ENV_PATH": "dev"
+				},
+				"define": {
+					"WXCS-PLATFORM": true
+				}
+			},
+			"weixin:prod": {
+				"title": "微信生产环境",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin",
+					"ENV_PATH": "prod"
+				},
+				"define": {
+					"WXSC-PLATFORM": true
+				}
+			}
+		}
+	}
+}
